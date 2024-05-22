@@ -2,14 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 
+
+// This file contains the logic and UI elements for the Flutter app.
 class Generator extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    
+    // Creates and returns an instance of GeneratorState to manage the state of the Generator widget
     return GeneratorState();
   }
 }
 
+// GeneratorState is the state class associated with the Generator widget. 
+// It manages the state and contains the logic for generating text.
 class GeneratorState extends State<Generator> {
 
   // Various variable setups
