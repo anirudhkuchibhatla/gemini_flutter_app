@@ -99,7 +99,7 @@ class GeneratorState extends State<Generator> {
                   child: TextField(
                     controller: _controller,
                     decoration: const InputDecoration(
-                      labelText: 'Enter text',
+                      labelText: 'Enter ingredients',
                       labelStyle: TextStyle(color: Colors.teal),
                       border: OutlineInputBorder(),
                       focusedBorder: OutlineInputBorder(
@@ -112,8 +112,8 @@ class GeneratorState extends State<Generator> {
                 ElevatedButton(
                   onPressed: _generateText,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.teal, // Replaces primary
-                    foregroundColor: Colors.white, // Replaces onPrimary
+                    backgroundColor: Colors.teal, 
+                    foregroundColor: Colors.white, 
                   ),
                   child: const Text('Submit'),
                 ),
